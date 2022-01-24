@@ -1,0 +1,85 @@
+.grid-container {
+  text-align: center;
+  width: auto;
+  display: grid;
+  padding: 5px;
+  grid-gap: 5px;
+  grid-template-columns: 250px 300px 250px 250px;
+  grid-template-rows: 1cm 1cm 1cm 1cm 1cm 1cm 1cm;
+}
+.grid-container {
+  border: 2px solid black;
+  padding-top: 15px;
+  background-color: yellowgreen;
+}
+.item2,
+.item3,
+.item4,
+.item5,
+.item6,
+.item7,
+.item8,
+.item9,
+.item10,
+.item11,
+.item12,
+.item13 {
+  border: 2px solid black;
+  padding-top: 15px;
+  background-color: rgb(238, 255, 239);
+}
+.item1 {
+  color: black;
+  font: 3rem Fantasy;
+  grid-row: 1;
+  grid-column: 1 / span 5;
+}
+
+.item2 {
+  grid-row: 2;
+  grid-column: 1 / span 3;
+}
+.item3 {
+  grid-row: 3;
+  grid-column: 1 / span 3;
+}
+.item4 {
+  grid-row: 4;
+  grid-column: 1 / span 3;
+}
+.item5 {
+  grid-row: 5;
+  grid-column: 1 / span 3;
+}
+.item6 {
+  grid-row: 6;
+  grid-column: 1 / span 3;
+}
+.item7 {
+  grid-row: 7;
+  grid-column: 1 / span 3;
+}
+.item8 {
+  grid-row: 2;
+  grid-column: 4 / span 2;
+}
+.item9 {
+  grid-row: 3;
+  grid-column: 4 / span 2;
+}
+.item10 {
+  grid-row: 4;
+  grid-column: 4 / span 2;
+}
+.item11 {
+  grid-row: 5;
+  grid-column: 4 / span 2;
+}
+.item12 {
+  grid-row: 6;
+  grid-column: 4 / span 2;
+}
+.item13 {
+  grid-row: 7;
+  grid-column: 4 / span 2;
+}

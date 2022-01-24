@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@500&display=swap");
+body {
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(0, 46, 52, 1) 33%,
+    rgba(0, 67, 84, 1) 55%,
+    rgba(0, 212, 255, 1) 100%
+  );
+}
+.container {
+  background: rgb(222, 162, 255);
+  background: linear-gradient(
+    0deg,
+    rgba(222, 162, 255, 1) 23%,
+    rgba(220, 156, 255, 1) 56%,
+    rgba(190, 190, 190, 1) 100%
+  );
+  width: 37%;
+  box-sizing: border-box;
+  font-family: "Big Shoulders Display", cursive;
+  font-size: 2rem;
+  margin-top: 4cm;
+}
+h2 {
+  padding-top: 0.5cm;
+  text-align: center;
+}
+.form-control,
+.form-select {
+  display: flex;
+  float: right;
+  width: 70%;
+}
+.valid-feedback,
+.invalid-feedback {
+  text-align-last: center;
+  width: 83%;
+  margin-top: -10px;
+  font-size: 0.5em;
+}
+.confirmation {
+  font-size: 1rem;
+}
+#paslauga {
+  width: 135px;
+}

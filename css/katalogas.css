@@ -1,0 +1,11 @@
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: auto;
+  justify-content: space-evenly;
+}
+h1 {
+  text-align: center;
+  text-decoration: 2px dashed black;
+}

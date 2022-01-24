@@ -1,0 +1,40 @@
+h3 {
+  text-align: left;
+  font-weight: bold;
+  width: 600px;
+}
+hr {
+  border-top: 1px solid black;
+  width: 800px;
+  align-content: flex-start;
+  display: table-cell;
+}
+p {
+  width: 600px;
+}
+article a {
+  font-size: 1rem;
+}
+article a:hover {
+  color: cornflowerblue;
+}
+article p::first-letter {
+  font-size: 130%;
+  font-style: italic;
+}
+img {
+  width: 250px;
+}
+.right {
+  float: right;
+}
+.auto {
+  width: auto;
+  height: auto;
+}
+blockquote {
+  width: 800px;
+}
+blockquote footer {
+  background-color: inherit;
+}

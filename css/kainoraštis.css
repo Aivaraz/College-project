@@ -1,0 +1,22 @@
+table,
+th,
+td {
+  border: 1px solid black;
+  text-align: center;
+  font: 2rem Papyrus;
+}
+th {
+  padding: 3px;
+  font: 1.7rem Fantasy;
+  text-shadow: 1px 1px 1px #fff;
+}
+caption {
+  text-align: center;
+  font-size: 4rem;
+  color: black;
+  text-shadow: 1px 1px 1px #fff, 2px 2px 1px #000;
+}
+
+table {
+  margin-left: 3cm;
+}

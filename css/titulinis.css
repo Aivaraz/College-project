@@ -1,0 +1,263 @@
+* {
+  font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+}
+a {
+  color: black;
+  text-decoration: none;
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+  align-items: flex-end;
+}
+a:hover {
+  color: rgba(0, 0, 0, 0.658);
+  text-decoration: none;
+}
+#header {
+  text-decoration: none;
+  background-image: url("../images/repair\ background.jpg");
+  background-size: auto;
+  width: auto;
+  height: 2cm;
+  color: black;
+  border: 1px solid black;
+}
+#header h2 {
+  padding-left: 1cm;
+  font-weight: bold;
+  font-style: italic;
+  margin-top: 10px;
+  font-size: 40px;
+  font-family: Geneva;
+  text-shadow: 8px 9px yellowgreen;
+}
+#insta {
+  width: 35px;
+  height: 35px;
+  margin-top: 0px;
+}
+img.facebook {
+  width: 50px;
+  height: 50px;
+  margin-top: 0px;
+}
+form div.col-lg-3 a.facebook {
+  height: 1cm;
+  width: 1cm;
+}
+div.links {
+  padding-left: 4cm;
+  padding-top: 5px;
+}
+.sbx-custom {
+  display: inline-block;
+  position: absolute;
+  margin-left: 3cm;
+  margin-top: 5px;
+  width: 400px;
+  height: 51px;
+  white-space: nowrap;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+
+.sbx-custom__wrapper {
+  width: 100%;
+  height: 100%;
+}
+.sbx-custom__input {
+  display: inline-block;
+  -webkit-transition: box-shadow 0.4s ease, background 0.4s ease;
+  transition: box-shadow 0.4s ease, background 0.4s ease;
+  border: 0;
+  border-radius: 26px;
+  box-shadow: inset 0 0 0 4px #000000;
+  background: #ffffff;
+  padding: 0;
+  padding-right: 78px;
+  padding-left: 22px;
+  width: 100%;
+  height: 100%;
+  vertical-align: middle;
+  white-space: normal;
+  font-size: inherit;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+.sbx-custom__input::-webkit-search-decoration,
+.sbx-custom__input::-webkit-search-cancel-button,
+.sbx-custom__input::-webkit-search-results-button,
+.sbx-custom__input::-webkit-search-results-decoration {
+  display: none;
+}
+.sbx-custom__input::placeholder {
+  color: #000000;
+}
+.sbx-custom__submit {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: inherit;
+  margin: 0;
+  border: 0;
+  border-radius: 0 25px 25px 0;
+  background-color: rgba(255, 255, 255, 0);
+  padding: 0;
+  width: 51px;
+  height: 100%;
+  vertical-align: middle;
+  text-align: center;
+  font-size: inherit;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.sbx-custom__submit svg {
+  width: 31px;
+  height: 31px;
+  vertical-align: middle;
+  fill: #000000;
+}
+.sbx-custom__reset {
+  display: none;
+  background: none;
+  cursor: pointer;
+  padding: 0;
+  font-size: inherit;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+nav {
+  height: 1.5cm;
+  width: auto;
+  background-color: yellowgreen;
+  border: 1px solid black;
+}
+.lentele {
+  display: table;
+  margin: 0 auto;
+}
+ul#horizontaliai,
+ul#horizontaliai_footer {
+  min-width: 696px;
+  list-style: none;
+  padding-top: 11px;
+}
+ul#horizontaliai li {
+  align-items: center;
+  display: inline;
+  padding: 6px;
+  margin: 15px;
+  border: 3px solid black;
+  border-radius: 30px;
+  background-color: rgb(250, 249, 201);
+}
+footer {
+  background-color: blanchedalmond;
+  color: black;
+}
+ul#horizontaliai_footer {
+  min-width: 696px;
+  list-style: none;
+  padding-top: 11px;
+}
+ul#horizontaliai_footer li {
+  align-items: center;
+  display: inline;
+  padding: 6px;
+}
+footer {
+  background-color: white;
+  color: black;
+}
+aside {
+  border: 1px solid black;
+  width: 20%;
+  height: 100%;
+}
+aside p {
+  background-color: rgba(231, 238, 217, 0.801);
+  font-size: 0.5cm;
+  padding-left: 0.6cm;
+  padding-top: 0.3cm;
+  margin-bottom: 0;
+}
+aside iframe {
+  padding: 0 0cm 0 0.3cm;
+}
+body,
+aside iframe {
+  background-color: rgba(231, 238, 217, 0.801);
+}
+section aside {
+  float: left;
+  width: 19%;
+}
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+section article {
+  float: left;
+  width: 81%;
+  padding: 20px;
+}
+article p {
+  font-size: 0.4cm;
+}
+#vadovas.ceo::after {
+  content: " <-- Neoficialus CEO!";
+  color: green;
+  font-size: 26%;
+}
+.ikurejas::after {
+  content: " <-- Įmonės įkurėja!";
+  color: green;
+  font-size: 26%;
+}
+summary {
+  font-size: 0.7cm;
+  font-style: italic;
+}
+summary:hover {
+  color: red;
+  font-size: 0.7cm;
+  cursor: pointer;
+}
+section h2 {
+  padding-left: 8cm;
+}
+article h3,
+section h2 {
+  text-align: center;
+}
+div.nariai {
+  display: block;
+  align-items: center;
+  width: 33.3%;
+}
+article#title img {
+  width: 262px;
+  height: 342px;
+  opacity: 0.85;
+  border: 10px solid transparent;
+  border-radius: 50%;
+  margin-left: 1.8cm;
+}
+div.nariai p {
+  font-size: 35px;
+  text-align: center;
+  margin-bottom: 0;
+}
+article#title img:hover {
+  border-color: #f1f1f1;
+}
+.komanda {
+  margin-bottom: 100px;
+}

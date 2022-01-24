@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@500&display=swap");
+body {
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(0, 46, 52, 1) 33%,
+    rgba(0, 67, 84, 1) 55%,
+    rgba(0, 212, 255, 1) 100%
+  );
+}
+.container {
+  background: rgb(222, 162, 255);
+  background: linear-gradient(
+    0deg,
+    rgb(255, 255, 255) 23%,
+    rgb(253, 253, 247) 56%,
+    rgb(248, 255, 218) 100%
+  );
+  width: 30%;
+  height: 700px;
+  box-sizing: border-box;
+  font-family: "Big Shoulders Display", cursive;
+  font-size: 1.3rem;
+  margin-top: 2cm;
+  margin-bottom: 2cm;
+}
+h2 {
+  padding-top: 0.5cm;
+  text-align: center;
+}
+#logo {
+  float: right;
+  width: 150px;
+  height: 150px;
+}
